@@ -1,5 +1,5 @@
-# discord-widget
+**discord-widget**
 
-**TODO**
+TODO
 - Convert button to SVG
 - Probably fix a bunch of bugs
