@@ -4,4 +4,4 @@ function reload () {
     document.getElementById("line").innerHTML = "&lt;script type='text/javascript' src='http://hexicle.com/discord-widget/widget.js' link='"+document.getElementById("linkID").value+"' text='"+document.getElementById("textID").value+"' color='"+document.getElementById("colorID").value+ "'&gt;&lt;/script&gt";
 }
 
-console.log("hello world");
+console.log("i do nothing");
