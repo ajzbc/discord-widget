@@ -1,5 +1,4 @@
 # discord-widget
-Discord Button Widget
 
 **TODO**
 - Convert button to SVG
