@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+h1, h2, input::-webkit-input-placeholder, button {
+    font-family: 'roboto', sans-serif;
+}
+
+h1 {
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+    background: #7289da;
+    color: white;
+    border-radius: 3px 3px 0 0;
+}
+
+h2 {
+    height: 25px;
+    width: 100%;
+    font-size: 18px;
+    background: #7289da;
+    color: white;
+    border-radius: 3px 3px 0 0;
+    line-height: 25px;
+}
+
+form {
+    box-sizing: border-box;
+    width: 500px;
+    margin: 50px auto 0;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7289da;
+}
+
+form h1 {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+form h2 {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input {
+    margin: 40px 25px;
+    width: 450px;
+    display: block;
+    border: none;
+    border-bottom: solid 1px #7289da;
+    color: #7289da;
+}
+
+input:focus, input:valid {
+    box-shadow: none;
+    outline: none;
+    background-position: 0 0;
+}
+
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+    color: #7289da;
+    font-size: 11px;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    visibility: visible !important;
+}
+
+button.generate {
+    border: none;
+    background: #7289da;
+    cursor: pointer;
+    padding: 6px;
+    width: 125px;
+    height: 30px;
+    color: white;
+    margin-left: auto;
+    font-size: 15px;
+    border-radius: 3px;
+    margin: auto;
+    display: block;
+}
+
+button:hover {
+    background: white;
+    color: #7289da;
+}
+
+div.container {
+    text-align: center;
+    vertical-align: top;
+    padding-botton: 10px;
+}
+
+div.box {
+    display: inline-block;
+    margin-left: -1px;
+    margin-right: -1px;
+    vertical-align: top;
+    background-color: #7289da;
+    width: auto;
+    height: 46px;
+    line-height: 46px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+div.statbox {
+    padding: 15px;
+}
+
+div.stat {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #7289da;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+div.embd {
+    padding: 15px;
+    padding-top: 10px;
+}
+
+div.code {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+div.codebox {
+    background: #d9d9d9;
+    border-radius: 0px 0px 3px 3px;
+}
+
+a.creator {
+    float: right;
+    font-size: 15px;
+    color: white;
+}
+
+a.example {
+    float: right;
+    padding-right: 15px;
+    color: #7289da;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}

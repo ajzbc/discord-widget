@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+div.container {
+  display:inline-block;
+  vertical-align: top;
+}
+div.box {
+    display: inline-block;
+    margin-left: -1px;
+    margin-right: -1px;
+    vertical-align: top;
+    background-color: #7289da;
+    width: auto;
+    height: 46px;
+    line-height: 46px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+p {
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
