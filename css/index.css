@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-h1, h2, input::-webkit-input-placeholder, button {
+h1, h2, input::-webkit-input-placeholder, a.generate {
     font-family: 'roboto', sans-serif;
 }
 
@@ -66,22 +66,23 @@ input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
     visibility: visible !important;
 }
 
-button.generate {
+a.generate {
     border: none;
     background: #7289da;
     cursor: pointer;
     padding: 6px;
     width: 125px;
-    height: 30px;
+    height: auto;
     color: white;
     margin-left: auto;
     font-size: 15px;
     border-radius: 3px;
     margin: auto;
     display: block;
+    text-decoration: none;
 }
 
-button:hover {
+a.generate:hover {
     background: white;
     color: #7289da;
 }
