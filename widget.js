@@ -8,7 +8,7 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery !== '1.4.2') {
     var script_tag = document.createElement('script');
     script_tag.setAttribute("type","text/javascript");
     script_tag.setAttribute("src",
-        "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js");
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js");
     if (script_tag.readyState) {
       script_tag.onreadystatechange = function () { // For old versions of IE
           if (this.readyState == 'complete' || this.readyState == 'loaded') {
@@ -42,7 +42,7 @@ function main() {
     var css_link = $("<link>", {
         rel: "stylesheet",
         type: "text/css",
-        href: "http://hexicle.com/discord-widget/widget.css"
+        href: "https://ajzbc.com/discord-widget/widget.css"
     });
     css_link.appendTo('head');
 
@@ -63,7 +63,7 @@ function main() {
         head.appendChild(script);
     }
 
-    document.getElementById('discord-widget').innerHTML = "</script><a href='http://hexicle.com/discord-widget' id='widget-link'><img src='http://hexicle.com/discord-widget/left.png' height='52.06' width='46.37' /><div id='box' class='box'>Discord Widget</div><img src='http://hexicle.com/discord-widget/right.png' height='52.06' width='12.19'/></a>";
+    document.getElementById('discord-widget').innerHTML = "</script><a href='https://ajzbc.com/discord-widget' id='widget-link'><img src='https://ajzbc.com/discord-widget/left.png' height='52.06' width='46.37' /><div id='box' class='box'>Discord Widget</div><img src='https://ajzbc.com/discord-widget/right.png' height='52.06' width='12.19'/></a>";
 
     var linkID = document.querySelector('script[link]');
     var textID = document.querySelector('script[text]');
